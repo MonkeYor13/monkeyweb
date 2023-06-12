@@ -2,10 +2,10 @@ body{
   font-family: 'Roboto', sans-serif;
 }
 
-.colorSection{
-  background-color: green;
+.config_Section{
   width: 100%;
   height: 100vh;
+  background-color: black;
 }
 
 

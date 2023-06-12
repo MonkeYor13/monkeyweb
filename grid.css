@@ -1,0 +1,50 @@
+/* this is my grid*/
+
+/* my start grid */
+.start_grid{
+  display: grid;
+  grid-template-columns: 80px auto auto auto;
+  grid-template-rows: auto 60px;
+  gap: 5px;
+  grid-template-areas: 
+  'bar_start centro_start centro_start centro_start'
+  'bar_start footer_start footer_start footer_start';
+}
+.bar_start{
+  grid-area: bar_start;
+}
+.centro_start{
+  grid-area: centro_start;
+}
+.footer_start{
+  grid-area: footer_start;
+  background: rgba(46, 46, 46, 0.40);
+}
+
+/* my home grid */
+.home_grid{
+  display: grid;
+  grid-template-columns: 80px auto auto;
+  grid-template-rows: 60px auto auto 60px;
+  gap: 5px;
+  grid-template-areas: 
+  'bar_home menu_home menu_home'
+  'bar_home centro_home centro_home'
+  'bar_home centro_home centro_home'
+  'bar_home footer_home footer_home';
+}
+.bar_home{
+  grid-area: bar_home;
+}
+.menu_home{
+  grid-area: menu_home;
+  background-color: red;
+}
+.centro_home{
+  grid-area: centro_home;
+}
+.footer_home{
+  grid-area: footer_home;
+  background: rgba(46, 46, 46, 0.40);
+}
+
