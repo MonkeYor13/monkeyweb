@@ -4,8 +4,7 @@
 .start_grid{
   display: grid;
   grid-template-columns: 80px auto auto auto;
-  grid-template-rows: auto 60px;
-  gap: 5px;
+  grid-template-rows: auto 40px;
   grid-template-areas: 
   'bar_start centro_start centro_start centro_start'
   'bar_start footer_start footer_start footer_start';
@@ -18,15 +17,13 @@
 }
 .footer_start{
   grid-area: footer_start;
-  background: rgba(46, 46, 46, 0.40);
 }
 
 /* my home grid */
 .home_grid{
   display: grid;
   grid-template-columns: 80px auto auto;
-  grid-template-rows: 60px auto auto 60px;
-  gap: 5px;
+  grid-template-rows: 60px auto auto 40px;
   grid-template-areas: 
   'bar_home menu_home menu_home'
   'bar_home centro_home centro_home'
@@ -38,13 +35,42 @@
 }
 .menu_home{
   grid-area: menu_home;
-  background-color: red;
 }
 .centro_home{
   grid-area: centro_home;
 }
 .footer_home{
   grid-area: footer_home;
-  background: rgba(46, 46, 46, 0.40);
 }
 
+/* my about grid */
+.about_grid{
+  display: grid;
+  grid-template-columns: 80px auto;
+  grid-template-rows: 60px auto;
+  grid-template-areas: 
+  'bar_about menu_about menu_about'
+  'bar_about centro_about centro_about';
+}
+.bar_about{
+  grid-area: bar_about;
+}
+.menu_about{
+  grid-area: menu_about;
+}
+.centro_about{
+  grid-area: centro_about;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto 40px;
+  gap: 5px;
+  grid-template-areas:
+  'centro_centro centro_centro'
+  'footer_centro footer_centro';
+}
+.centro_centro{
+  grid-area: centro_centro;
+}
+.footer_centro{
+  grid-area: footer_centro;
+}
