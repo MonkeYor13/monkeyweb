@@ -7,9 +7,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MonkeYorWeb</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <!-- font -->
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
     rel="stylesheet">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- icons -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <!-- style -->
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="grid.css">
 </head>
@@ -71,9 +77,8 @@
       </div>
     </section>
 
-
     <!-- SCREEN HOME -->
-    <section class="config_Section home_grid">
+    <section id="section-home" class="config_Section home_grid">
       <!-- BARRA LATERAL -->
       <div class="bar_home w-full h-full border-solid border-[#E7E7E7] border-r">
         <div class="logo flex w-full h-1/4 items-center justify-center">
@@ -114,19 +119,19 @@
           <ul class="flex mr-52">
             <li class=""><a
                 class="text-[#F15A24] font-bold relative after:content-[''] after:w-0 after:h-0.5 after:bg-[#F15A24] after:absolute after:top-6 after:right-2/4 after:rounded-2xl after:transition-all after:will-change-contents hover:after:w-full hover:after:right-0"
-                href="">Home</a></li>
+                href="#section-home">Home</a></li>
             <li class="list_item ml-12"><a
                 class="text-[#D9D9D9] hover:text-[#F15A24] relative after:content-[''] after:w-0 after:h-0.5 after:bg-[#F15A24] after:absolute after:top-6 after:right-2/4 after:rounded-2xl after:transition-all after:will-change-contents hover:after:w-full hover:after:right-0"
-                href="">About</a></li>
+                href="#section-about">About</a></li>
             <li class="list_item ml-12"><a
                 class="text-[#D9D9D9] hover:text-[#F15A24] relative after:content-[''] after:w-0 after:h-0.5 after:bg-[#F15A24] after:absolute after:top-6 after:right-2/4 after:rounded-2xl after:transition-all after:will-change-contents hover:after:w-full hover:after:right-0"
-                href="">Experiencie</a></li>
+                href="#section-experience">Experiencie</a></li>
             <li class="list_item ml-12"><a
                 class="text-[#D9D9D9] hover:text-[#F15A24] relative after:content-[''] after:w-0 after:h-0.5 after:bg-[#F15A24] after:absolute after:top-6 after:right-2/4 after:rounded-2xl after:transition-all after:will-change-contents hover:after:w-full hover:after:right-0"
-                href="">Contact</a></li>
+                href="#section-contact">Contact</a></li>
             <li class="list_item ml-12"><a
                 class="text-[#D9D9D9] hover:text-[#F15A24] relative after:content-[''] after:w-0 after:h-0.5 after:bg-[#F15A24] after:absolute after:top-6 after:right-2/4 after:rounded-2xl after:transition-all after:will-change-contents hover:after:w-full hover:after:right-0"
-                href="">Projects</a></li>
+                href="#section-projects">Projects</a></li>
           </ul>
         </nav>
       </div>
@@ -146,7 +151,7 @@
         </div>
         <!-- contenedor derecho-->
         <div class="box_right w-1/2 h-full">
-          <div class="title_description w-full h-3/6 pt-10">
+          <div class="title_description w-full h-3/6 pt-20">
             <h3 class="text-[#D9D9D9] font-bold text-5xl">Design Anywhere</h3>
             <p class="text-sm text-[#D9D9D9] mt-5 text-justify pr-10">Introducing myself to the World of Design in a
               dark and
@@ -167,14 +172,14 @@
       </div>
       <!-- FOOTER-->
       <div class="footer_home h-full flex justify-center items-center bg-[#2E2E2E0E]">
-          <svg class="fill-[#D9D9D9]" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24">
+        <svg class="fill-[#D9D9D9]" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24">
           <path d="M16.293 9.293 12 13.586 7.707 9.293l-1.414 1.414L12 16.414l5.707-5.707z"></path>
         </svg>
       </div>
     </section>
 
     <!-- SCREEN ABOUT -->
-    <section class="config_Section about_grid">
+    <section id="section-about" class="config_Section about_grid">
       <!-- BARRA LATERAL -->
       <div class="bar_about w-full h-full border-solid border-[#E7E7E7] border-r">
         <div class="logo flex w-full h-1/4 items-center justify-center">
@@ -214,20 +219,20 @@
         <nav class="w-full h-full flex justify-end items-center">
           <ul class="flex mr-52">
             <li class=""><a
-                class="text-[#D9D9D9] relative after:content-[''] after:w-0 after:h-0.5 after:bg-[#F15A24] after:absolute after:top-6 after:right-2/4 after:rounded-2xl after:transition-all after:will-change-contents hover:after:w-full hover:after:right-0"
-                href="">Home</a></li>
+                class="text-[#D9D9D9] hover:text-[#F15A24] relative after:content-[''] after:w-0 after:h-0.5 after:bg-[#F15A24] after:absolute after:top-6 after:right-2/4 after:rounded-2xl after:transition-all after:will-change-contents hover:after:w-full hover:after:right-0"
+                href="#section-home">Home</a></li>
             <li class="list_item ml-12"><a
-                class="text-[#F15A24] font-bold hover:text-[#F15A24] relative after:content-[''] after:w-0 after:h-0.5 after:bg-[#F15A24] after:absolute after:top-6 after:right-2/4 after:rounded-2xl after:transition-all after:will-change-contents hover:after:w-full hover:after:right-0"
-                href="">About</a></li>
+                class="text-[#F15A24] font-bold relative after:content-[''] after:w-0 after:h-0.5 after:bg-[#F15A24] after:absolute after:top-6 after:right-2/4 after:rounded-2xl after:transition-all after:will-change-contents hover:after:w-full hover:after:right-0"
+                href="#section-about">About</a></li>
             <li class="list_item ml-12"><a
                 class="text-[#D9D9D9] hover:text-[#F15A24] relative after:content-[''] after:w-0 after:h-0.5 after:bg-[#F15A24] after:absolute after:top-6 after:right-2/4 after:rounded-2xl after:transition-all after:will-change-contents hover:after:w-full hover:after:right-0"
-                href="">Experiencie</a></li>
+                href="#section-experience">Experiencie</a></li>
             <li class="list_item ml-12"><a
                 class="text-[#D9D9D9] hover:text-[#F15A24] relative after:content-[''] after:w-0 after:h-0.5 after:bg-[#F15A24] after:absolute after:top-6 after:right-2/4 after:rounded-2xl after:transition-all after:will-change-contents hover:after:w-full hover:after:right-0"
-                href="">Contact</a></li>
+                href="#section-contact">Contact</a></li>
             <li class="list_item ml-12"><a
                 class="text-[#D9D9D9] hover:text-[#F15A24] relative after:content-[''] after:w-0 after:h-0.5 after:bg-[#F15A24] after:absolute after:top-6 after:right-2/4 after:rounded-2xl after:transition-all after:will-change-contents hover:after:w-full hover:after:right-0"
-                href="">Projects</a></li>
+                href="#section-projects">Projects</a></li>
           </ul>
         </nav>
       </div>
@@ -235,57 +240,96 @@
       <div class="centro_about">
         <div class="centro_centro flex">
           <div
-            class="left  w-1/2 h-full bg-[url('/imgs/bg_about_left.png')] bg-no-repeat bg-center bg-cover bg-left-top">
+            class="left w-1/2 h-full bg-[url('/imgs/bg_about_left.png')] bg-no-repeat bg-cover bg-[center_left_-5rem]">
             <!-- titulo -->
-            <div class="title_about w-full h-2/5 flex flex-col pl-20 pt-5">
+            <div class="title_about_left w-full h-2/5 flex flex-col pl-20 pt-5">
               <h3 class="text-[#E7E7E7] font-bold text-6xl tracking-widest">Yorvis J.</h3>
               <h3 class="text-[#E7E7E7] font-bold text-6xl mt-2 tracking-widest">Rodriguez</h3>
               <p class="text-[#E7E7E7] tracking-[.25em] pt-1.5">DESIGN & MOBILE DEVELOPER</p>
             </div>
             <!-- hobbiests -->
             <div class="hobbies_about w-full h-3/5 flex">
-              <div class="description_hobbiets bg-red-200 w-full h-full flex flex-col items-end">
-                <div class="basket flex flex-col justify-center items-center bg-blue-300">
-                  <svg class="fill-[#]" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                    <path
-                      d="M18.328 4.258a9.953 9.953 0 0 0-5.949-2.235 8.99 8.99 0 0 1-1.835 7.107L12 10.586l6.328-6.328zM7.701 9.115 4.258 5.672a9.938 9.938 0 0 0-2.112 4.704 7.007 7.007 0 0 0 5.555-1.261zm12.041-3.443L13.414 12l1.456 1.456a8.993 8.993 0 0 1 7.107-1.835 9.953 9.953 0 0 0-2.235-5.949zm2.112 7.952a7.007 7.007 0 0 0-5.555 1.261l3.443 3.443a9.924 9.924 0 0 0 2.112-4.704zM9.115 7.701a7.007 7.007 0 0 0 1.261-5.555 9.928 9.928 0 0 0-4.704 2.112l3.443 3.443zm4.509 14.153a9.936 9.936 0 0 0 4.704-2.111L14.885 16.3a7.003 7.003 0 0 0-1.261 5.554zM12 13.414l-6.328 6.328a9.953 9.953 0 0 0 5.949 2.235 8.99 8.99 0 0 1 1.835-7.107L12 13.414zm-7.742 4.914L10.586 12 9.13 10.544a8.993 8.993 0 0 1-7.107 1.835 9.953 9.953 0 0 0 2.235 5.949z">
-                    </path>
-                  </svg>
-                  <p class="">Boston</p>
-                  <p>Celtis</p>
+              <div class="description_hobbiets w-full h-full flex flex-col items-end pr-18">
+                <div class="basket flex flex-col justify-center items-center">
+                  <i class='text-[#D9D9D9] text-4xl bx bxs-basketball'></i>
+                  <p class="text-[#D9D9D9]">Boston Celtis</p>
                 </div>
-                <div class="jockey flex flex-col justify-center items-center bg-blue-300">
-                  <span class="material-symbols-outlined">
+                <div class="jockey flex flex-col justify-center items-center pt-5">
+                  <span class="text-[#D9D9D9] text-4xl material-symbols-outlined">
                     sports_hockey
                   </span>
-                  <p class="">Boston</p>
-                  <p>Celtis</p>
+                  <p class="text-[#D9D9D9]">Boston Bruins</p>
                 </div>
-                <div class="baseball flex flex-col justify-center items-center bg-blue-300">
-                  <svg class="fill-[#]" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                    <path
-                      d="M18.328 4.258a9.953 9.953 0 0 0-5.949-2.235 8.99 8.99 0 0 1-1.835 7.107L12 10.586l6.328-6.328zM7.701 9.115 4.258 5.672a9.938 9.938 0 0 0-2.112 4.704 7.007 7.007 0 0 0 5.555-1.261zm12.041-3.443L13.414 12l1.456 1.456a8.993 8.993 0 0 1 7.107-1.835 9.953 9.953 0 0 0-2.235-5.949zm2.112 7.952a7.007 7.007 0 0 0-5.555 1.261l3.443 3.443a9.924 9.924 0 0 0 2.112-4.704zM9.115 7.701a7.007 7.007 0 0 0 1.261-5.555 9.928 9.928 0 0 0-4.704 2.112l3.443 3.443zm4.509 14.153a9.936 9.936 0 0 0 4.704-2.111L14.885 16.3a7.003 7.003 0 0 0-1.261 5.554zM12 13.414l-6.328 6.328a9.953 9.953 0 0 0 5.949 2.235 8.99 8.99 0 0 1 1.835-7.107L12 13.414zm-7.742 4.914L10.586 12 9.13 10.544a8.993 8.993 0 0 1-7.107 1.835 9.953 9.953 0 0 0 2.235 5.949z">
-                    </path>
-                  </svg>
-                  <p class="">Boston</p>
-                  <p>Celtis</p>
+                <div class="baseball flex flex-col justify-center items-center pt-5">
+                  <i class='text-[#D9D9D9] text-4xl bx bxs-baseball'></i>
+                  <p class="text-[#D9D9D9]">New York Mets</p>
                 </div>
-                <div class="music flex flex-col justify-center items-center bg-blue-300">
-                  <svg class="fill-[#]" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                    <path
-                      d="M18.328 4.258a9.953 9.953 0 0 0-5.949-2.235 8.99 8.99 0 0 1-1.835 7.107L12 10.586l6.328-6.328zM7.701 9.115 4.258 5.672a9.938 9.938 0 0 0-2.112 4.704 7.007 7.007 0 0 0 5.555-1.261zm12.041-3.443L13.414 12l1.456 1.456a8.993 8.993 0 0 1 7.107-1.835 9.953 9.953 0 0 0-2.235-5.949zm2.112 7.952a7.007 7.007 0 0 0-5.555 1.261l3.443 3.443a9.924 9.924 0 0 0 2.112-4.704zM9.115 7.701a7.007 7.007 0 0 0 1.261-5.555 9.928 9.928 0 0 0-4.704 2.112l3.443 3.443zm4.509 14.153a9.936 9.936 0 0 0 4.704-2.111L14.885 16.3a7.003 7.003 0 0 0-1.261 5.554zM12 13.414l-6.328 6.328a9.953 9.953 0 0 0 5.949 2.235 8.99 8.99 0 0 1 1.835-7.107L12 13.414zm-7.742 4.914L10.586 12 9.13 10.544a8.993 8.993 0 0 1-7.107 1.835 9.953 9.953 0 0 0 2.235 5.949z">
-                    </path>
-                  </svg>
-                  <p class="">Boston</p>
-                  <p>Celtis</p>
+                <div class="music flex flex-col justify-center items-center pt-5">
+                  <i class='text-[#D9D9D9] text-4xl bx bxl-spotify'></i>
+                  <p class="text-[#D9D9D9]">Hip Hop Music</p>
                 </div>
               </div>
-              <div class="items_hobbiets bg-green-200 w-full h-full"></div>
+              <div class="items_hobbiets w-full h-full flex flex-col">
+                <div class="icono flex items-center">
+                  <div class="linea w-32 h-0.5 rounded-sm bg-[#D9D9D9] relative left-6"></div>
+                  <div class="circulo w-10 h-10 rounded-full border-2 border-[#D9D9D9]"></div>
+                </div>
+                <div class="icono flex items-center pt-12">
+                  <div class="linea w-24 h-0.5 rounded-sm bg-[#D9D9D9] relative left-6"></div>
+                  <div class="circulo w-10 h-10 rounded-full border-2 border-[#D9D9D9]"></div>
+                </div>
+                <div class="icono flex items-center pt-12">
+                  <div class="linea w-28 h-0.5 rounded-sm bg-[#D9D9D9] relative left-6"></div>
+                  <div class="circulo w-10 h-10 rounded-full border-2 border-[#D9D9D9]"></div>
+                </div>
+                <div class="icono flex items-center pt-12">
+                  <div class="linea w-40 h-0.5 rounded-sm bg-[#D9D9D9] relative left-6"></div>
+                  <div class="circulo w-10 h-10 rounded-full border-2 border-[#D9D9D9]"></div>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="right w-3/5 h-full"></div>
+          <div class="right w-3/5 h-full bg-[url('/imgs/bg_about_right.png')] bg-no-repeat bg-cover bg-center">
+            <div class="contenedor_items w-full h-full px-10">
+              <div class="title_about_right pt-14">
+                <h3 class="text-[#E7E7E7] font-bold text-5xl text-center tracking-widest">About Me</h3>
+              </div>
+              <div class="spanish_about_right pt-10">
+                <h6 class="text-[#F15A24] font-bold text-xl tracking-widest">Spanish</h6>
+                <p class="text-[#E7E7E7] pt-2 text-sm">Nacido en Caracas, Venezuela, amante de la música hip-hop.
+                  Expuesto a influencias musicales desde
+                  temprana edad, lo que despertó mi amor por el hip-hop y el estar conectando con la cultura que rodea
+                  este género.
+                  Más allá del amor por la música, también desperté la curiosidad el en diseño gráfico y desarrollo de
+                  aplicaciones móviles. Mi mentalidad creativa en el diseño gráfico logra dar vida a ideas.
+                  En el ámbito del desarrollo de aplicaciones móviles, posee conocimiento de lenguajes de programación y
+                  marcos de trabajo, lo que le permite crear aplicaciones intuitivas y funcionales para teléfonos
+                  inteligentes. Ya sea diseñando interfaces de usuario o escribiendo código eficiente, creando
+                  experiencias móviles innovadoras.
+                  Mi familia desempeña un papel importante en mi vida. Tengo dos hermanas hermosas, soy tío de dos
+                  sobrinos enérgicos e inteligentes. Conectar con mi familia me brinda alegría.
+                  Este soy yo una persona con un profundo amor por la música hip-hop, una habilidad para el diseño
+                  gráfico y experiencia en el desarrollo de aplicaciones móviles. Con un deseo continuo de crecer y
+                  aprender.</p>
+              </div>
+              <div class="english_about_right pt-10">
+                <h6 class="text-[#F15A24] font-bold text-xl tracking-widest">English</h6>
+                <p class="text-[#E7E7E7] pt-2 text-sm">Born in Caracas, Venezuela, lover of hip-hop music. Exposed to
+                  musical influences from an early age,
+                  which sparked my love for hip-hop and connecting with the culture that surrounds this genre.
+                  Beyond the love for music, I also aroused curiosity in graphic design and mobile application
+                  development. My creative mindset in graphic design brings ideas to life.
+                  In the field of mobile application development, he has knowledge of programming languages and
+                  frameworks, which allows him to create intuitive and functional applications for smartphones. Whether
+                  it's designing user interfaces or writing efficient code, creating innovative mobile experiences.
+                  My family plays an important role in my life. I have two beautiful sisters, I am the uncle of two
+                  energetic and intelligent nephews. Connecting with my family brings me joy.
+                  This is me, a person with a deep love for hip-hop music, a knack for graphic design, and experience
+                  developing mobile apps. With a continuous desire to grow and learn.</p>
+              </div>
+            </div>
+          </div>
         </div>
-
         <!-- footer-->
         <div class="footer_centro h-full flex justify-center items-center bg-[#2E2E2E0E]">
           <svg class="fill-[#D9D9D9]" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24">
@@ -296,6 +340,80 @@
       </div>
     </section>
 
+
+
+
+
+
+
+
+    <!-- SCREEN EXPERIENCE -->
+    <section id="section-experience" class="config_Section experience_grid">
+      <!-- BARRA LATERAL -->
+      <div class="bar_experience w-full h-full border-solid border-[#E7E7E7] border-r">
+        <div class="logo flex w-full h-1/4 items-center justify-center">
+          <img class="w-96 -rotate-90" src="/imgs/logo.png" alt="logotype">
+        </div>
+        <div class="social_media h-3/4 flex flex-col justify-end items-center pb-20">
+          <a target="_blank" href="https://www.linkedin.com/in/yorvisjesusrodriguez-169163146/">
+            <svg class="-rotate-90 fill-[#d9d9d9] hover:fill-[#F15A24]" xmlns="http://www.w3.org/2000/svg" width="24"
+              height="24" viewBox="0 0 24 24">
+              <circle cx="4.983" cy="5.009" r="2.188"></circle>
+              <path
+                d="M9.237 8.855v12.139h3.769v-6.003c0-1.584.298-3.118 2.262-3.118 1.937 0 1.961 1.811 1.961 3.218v5.904H21v-6.657c0-3.27-.704-5.783-4.526-5.783-1.835 0-3.065 1.007-3.568 1.96h-.051v-1.66H9.237zm-6.142 0H6.87v12.139H3.095z">
+              </path>
+            </svg>
+          </a>
+          <a class="pt-4" target=" _blank" href="https://twitter.com/YorMonke">
+            <svg class="-rotate-90 fill-[#d9d9d9] hover:fill-[#F15A24]" xmlns="http://www.w3.org/2000/svg" width="24"
+              height="24" viewBox="0 0 24 24">
+              <path
+                d="M19.633 7.997c.013.175.013.349.013.523 0 5.325-4.053 11.461-11.46 11.461-2.282 0-4.402-.661-6.186-1.809.324.037.636.05.973.05a8.07 8.07 0 0 0 5.001-1.721 4.036 4.036 0 0 1-3.767-2.793c.249.037.499.062.761.062.361 0 .724-.05 1.061-.137a4.027 4.027 0 0 1-3.23-3.953v-.05c.537.299 1.16.486 1.82.511a4.022 4.022 0 0 1-1.796-3.354c0-.748.199-1.434.548-2.032a11.457 11.457 0 0 0 8.306 4.215c-.062-.3-.1-.611-.1-.923a4.026 4.026 0 0 1 4.028-4.028c1.16 0 2.207.486 2.943 1.272a7.957 7.957 0 0 0 2.556-.973 4.02 4.02 0 0 1-1.771 2.22 8.073 8.073 0 0 0 2.319-.624 8.645 8.645 0 0 1-2.019 2.083z">
+              </path>
+            </svg>
+          </a>
+          <a class="pt-4" target="_blank" href="https://www.instagram.com/monke.yor/">
+            <svg class="-rotate-90 fill-[#d9d9d9] hover:fill-[#F15A24]" xmlns="http://www.w3.org/2000/svg" width="24"
+              height="24" viewBox="0 0 24 24">
+              <path
+                d="M20.947 8.305a6.53 6.53 0 0 0-.419-2.216 4.61 4.61 0 0 0-2.633-2.633 6.606 6.606 0 0 0-2.186-.42c-.962-.043-1.267-.055-3.709-.055s-2.755 0-3.71.055a6.606 6.606 0 0 0-2.185.42 4.607 4.607 0 0 0-2.633 2.633 6.554 6.554 0 0 0-.419 2.185c-.043.963-.056 1.268-.056 3.71s0 2.754.056 3.71c.015.748.156 1.486.419 2.187a4.61 4.61 0 0 0 2.634 2.632 6.584 6.584 0 0 0 2.185.45c.963.043 1.268.056 3.71.056s2.755 0 3.71-.056a6.59 6.59 0 0 0 2.186-.419 4.615 4.615 0 0 0 2.633-2.633c.263-.7.404-1.438.419-2.187.043-.962.056-1.267.056-3.71-.002-2.442-.002-2.752-.058-3.709zm-8.953 8.297c-2.554 0-4.623-2.069-4.623-4.623s2.069-4.623 4.623-4.623a4.623 4.623 0 0 1 0 9.246zm4.807-8.339a1.077 1.077 0 0 1-1.078-1.078 1.077 1.077 0 1 1 2.155 0c0 .596-.482 1.078-1.077 1.078z">
+              </path>
+              <circle cx="11.994" cy="11.979" r="3.003"></circle>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <!-- MENU-->
+      <div class="menu_experience flex justify-end">
+        <nav class="w-full h-full flex justify-end items-center">
+          <ul class="flex mr-52">
+            <li class=""><a
+                class="text-[#D9D9D9] hover:text-[#F15A24] relative after:content-[''] after:w-0 after:h-0.5 after:bg-[#F15A24] after:absolute after:top-6 after:right-2/4 after:rounded-2xl after:transition-all after:will-change-contents hover:after:w-full hover:after:right-0"
+                href="#section-home">Home</a></li>
+            <li class="list_item ml-12"><a
+                class="text-[#D9D9D9] hover:text-[#F15A24] relative after:content-[''] after:w-0 after:h-0.5 after:bg-[#F15A24] after:absolute after:top-6 after:right-2/4 after:rounded-2xl after:transition-all after:will-change-contents hover:after:w-full hover:after:right-0"
+                href="#section-about">About</a></li>
+            <li class="list_item ml-12"><a
+                class="text-[#F15A24] font-bold relative after:content-[''] after:w-0 after:h-0.5 after:bg-[#F15A24] after:absolute after:top-6 after:right-2/4 after:rounded-2xl after:transition-all after:will-change-contents hover:after:w-full hover:after:right-0"
+                href="#section-experience">Experiencie</a></li>
+            <li class="list_item ml-12"><a
+                class="text-[#D9D9D9] hover:text-[#F15A24] relative after:content-[''] after:w-0 after:h-0.5 after:bg-[#F15A24] after:absolute after:top-6 after:right-2/4 after:rounded-2xl after:transition-all after:will-change-contents hover:after:w-full hover:after:right-0"
+                href="#section-contact">Contact</a></li>
+            <li class="list_item ml-12"><a
+                class="text-[#D9D9D9] hover:text-[#F15A24] relative after:content-[''] after:w-0 after:h-0.5 after:bg-[#F15A24] after:absolute after:top-6 after:right-2/4 after:rounded-2xl after:transition-all after:will-change-contents hover:after:w-full hover:after:right-0"
+                href="#section-projects">Projects</a></li>
+          </ul>
+        </nav>
+      </div>
+      <!-- CONTENEDOR CENTRAL-->
+      <div class="centro_experience"></div>
+      <!-- footer-->
+      <div class="footer_experience h-full flex justify-center items-center bg-[#2E2E2E0E]">
+        <svg class="fill-[#D9D9D9]" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24">
+          <path d="M16.293 9.293 12 13.586 7.707 9.293l-1.414 1.414L12 16.414l5.707-5.707z"></path>
+        </svg>
+      </div>
+    </section>
   </div>
 </body>
 
